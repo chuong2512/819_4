@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff5c4121eaafcf64cb60fe481af136fb, type: 3}
+  m_Name: Audio Data
+  m_EditorClassIdentifier: 
+  <BackgroundMusic>k__BackingField: {fileID: 8300000, guid: a48cfe8c36e0b2748824a27fb4247684, type: 3}
+  <PerfectClip>k__BackingField: {fileID: 8300000, guid: 38584c747880a0f40a7fd551ba8d7f9d, type: 3}
+  <DropClip>k__BackingField: {fileID: 8300000, guid: b54beeae342605448afe49fee127afa9, type: 3}
+  <GameOverClip>k__BackingField: {fileID: 8300000, guid: d182e6b6e067a7f4889026d9b4ccbb1c, type: 3}
+  <PopClip>k__BackingField: {fileID: 8300000, guid: 923da15b95c29784d9df162ad39d0181, type: 3}
+  <FailClip>k__BackingField: {fileID: 0}
