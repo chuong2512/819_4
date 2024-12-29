@@ -56,8 +56,7 @@ public class GameoverMenu : Menu
 
         StartCoroutine(ReloadLevelAsync(() =>
         {
-            AdsManager.Instance.ShowInterstitial();
-
+          
             MenuManager.Instance.SwitchMenu(MenuType.Main);
         }));
     }
@@ -68,7 +67,6 @@ public class GameoverMenu : Menu
 
         StartCoroutine(ReloadLevelAsync(() =>
         {
-            AdsManager.Instance.ShowInterstitial();
 
             MenuManager.Instance.SwitchMenu(MenuType.Gameplay);
         }));

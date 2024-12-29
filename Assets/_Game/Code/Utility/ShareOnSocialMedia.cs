@@ -22,11 +22,7 @@ public class ShareOnSocialMedia : MonoBehaviour
 
         Destroy(tx); // to avoid memory leaks
 
-        new NativeShare()
-            .AddFile(path)
-            .SetSubject("This is my score")
-            .SetText("share your score with your friends")
-            .Share();
+       
 
         // if you are using panel share, deactivate panel share down here
     }

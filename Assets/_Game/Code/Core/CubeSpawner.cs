@@ -49,7 +49,6 @@ public class CubeSpawner : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireCube(transform.position, _cubePrefab.transform.localScale);
+       
     }
 }
